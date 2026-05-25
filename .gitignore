@@ -1,0 +1,32 @@
+# Environment variables (CRITICAL - DON'T SHARE SECRETS)
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Node modules (too big, don't push to GitHub)
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# User uploaded images (don't push user files)
+backend/uploads/
+uploads/
+
+# Build files (generated, not needed in GitHub)
+frontend/build/
+backend/dist/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
